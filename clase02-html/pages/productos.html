@@ -9,7 +9,7 @@
 <body>
     
     <header>
-        <h2>Soye el Header de la Pagina</h2>
+        <h2>Soy el Header de la Pagina</h2>
     </header>
 
     <nav>
@@ -29,32 +29,74 @@
 
 
     </nav>
+    
+    <h1>
+    
+        Soy la pagina de producto - Formularios
+       
+    </h1>
+
+
+
 
     <main>
 
-        <h1>
-            Soy la pagina de producto - Formularios
-        </h1>
+        
+   
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" minlength="3" maxlength="10" required>
+            <br>
 
-        <form>
-            <label for="name"> Nombre </label>
-            <input type="text" min="5" minlength="3" maxlength="10" required>
-<br>
-            <label for="edad">Edda</label>
-            <input type="number" id="edad" name="edad">
-<br>
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad">
 
-<label for="password">password</label>
-<input type="password" minlength="8" maxlength="15" name="Passwor" id="">
+            <br>
 
-<br>
-<input type="radio">
+            <label for="nacimiento">Fecha de Nacimiento: </label>
+            <input type="date" name="nacimiento" id="nacimiento">
 
-            <input type="button" value="Enviar Datos">
-         
+            <br>
+
+            <label for="password">Password</label>
+            <input type="password" minlength="8" maxlength="12" id="password" name="passwor">
+
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="miemail@hotmail.com" required>
+            
+            <br>
+
+            <label for="genero">Género :</label>
+            
+            <br>
+            
+            <label for="">Masculino</label>
+            <input type="radio" value="Masculino">
+
+            <br>
+
+            <label for="">Femenino</label>
+            <input type="radio" value="Femenino">
+
+            <br>
+            
+            <label for="">Soy Mayor de Edad</label>
+            <input type="checkbox">
+
+            <br>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <br>
+            
+            <input type="button" name="ejemplo" value="Enviar Datos">
+
+            <br>
+
             <button type="submit">Soy un Boton y Envio Datos</button>
 
-           
+
     </main>
 
 
