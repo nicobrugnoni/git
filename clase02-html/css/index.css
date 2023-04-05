@@ -2,7 +2,7 @@ h2 {       /* selector global */
     color: red;
     font-size: 50px;
     background-color: black;
-    text-align: center;  /* centrar el texto */
+   /*  text-align: center; */  /* centrar el texto */
     }
 
 
@@ -10,6 +10,11 @@ h2 {       /* selector global */
     .soloYo{
                 text-align: right;
             }
+
+    /* selector por id */
+    #miParrafo{
+                margin-top: 50px;
+                }
 
 h1  {      /* borde */
         border-top: solid 5px black;
@@ -28,3 +33,28 @@ h1  {      /* borde */
         margin-right: 30px;
         background-color: brown;
     }
+
+    .centrar{
+                text-align: center;
+            }
+
+    ul li{
+        list-style-type: none;
+        display: inline-block;
+        margin: 15px;
+        padding: 25px;
+        border: 1px solid blue;
+        background-color: blueviolet;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .otroParrafo {
+        font-size: 25px;
+    }
+
+    .miColor{
+             color: red;
+            }
