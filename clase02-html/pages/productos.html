@@ -29,7 +29,10 @@
 
 
     </nav>
-    
+
+
+    <main>
+
     <h1>
     
         Soy la pagina de producto - Formularios
@@ -39,65 +42,87 @@
 
 
 
-    <main>
+    
 
+       <form action="" method="get" id="miFormulario">
+
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" minlength="3" maxlength="10" required>
+        <br>
+
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" id="edad">
+
+        <br>
+
+        <label for="nacimiento">Fecha de Nacimiento: </label>
+        <input type="date" name="nacimiento" id="nacimiento">
+
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password" minlength="8" maxlength="12" id="password" name="passwor">
+
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="miemail@hotmail.com" required>
         
-   
-            <label for="nombre">Nombre: </label>
-            <input type="text" id="nombre" name="nombre" minlength="3" maxlength="10" required>
-            <br>
+        <br>
 
-            <label for="edad">Edad: </label>
-            <input type="number" name="edad" id="edad">
+        <label for="genero">Género :</label>
+        
+        <br>
+        
+        <label for="">Masculino</label>
+        <input type="radio" value="Masculino">
 
-            <br>
+        <br>
 
-            <label for="nacimiento">Fecha de Nacimiento: </label>
-            <input type="date" name="nacimiento" id="nacimiento">
+        <label for="">Femenino</label>
+        <input type="radio" value="Femenino">
 
-            <br>
+        <br>
+        
+        <label for="">Soy Mayor de Edad</label>
+        <input type="checkbox">
 
-            <label for="password">Password</label>
-            <input type="password" minlength="8" maxlength="12" id="password" name="passwor">
+        <br>
 
-            <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="miemail@hotmail.com" required>
-            
-            <br>
+        <br>
+        
+        <input type="button" name="ejemplo" value="Enviar Datos">
 
-            <label for="genero">Género :</label>
-            
-            <br>
-            
-            <label for="">Masculino</label>
-            <input type="radio" value="Masculino">
+        <br>
 
-            <br>
-
-            <label for="">Femenino</label>
-            <input type="radio" value="Femenino">
-
-            <br>
-            
-            <label for="">Soy Mayor de Edad</label>
-            <input type="checkbox">
-
-            <br>
-
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-
-            <br>
-            
-            <input type="button" name="ejemplo" value="Enviar Datos">
-
-            <br>
-
-            <button type="submit">Soy un Boton y Envio Datos</button>
+        <button type="submit">Soy un Boton y Envio Datos</button>
 
 
+
+
+
+       </form> 
+    
     </main>
+
+ <footer>
+
+    <address>
+        9 de Julio 919 San Francisco - Cordoba
+    </address>
+
+<p>
+
+    <a href="mailto:emanuel_brugnoni@hotmail.com.ar">emanuel_brugnoni@hotmail.com.ar</a>
+
+</p>
+
+
+
+ </footer>
+
 
 
 </body>

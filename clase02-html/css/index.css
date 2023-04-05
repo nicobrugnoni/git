@@ -1,0 +1,30 @@
+h2 {       /* selector global */
+    color: red;
+    font-size: 50px;
+    background-color: black;
+    text-align: center;  /* centrar el texto */
+    }
+
+
+    /* selector de clase */
+    .soloYo{
+                text-align: right;
+            }
+
+h1  {      /* borde */
+        border-top: solid 5px black;
+        border-right: dashed 10px violet; 
+        border-bottom: solid 6px blue;
+        border-left: dotted 10px rgb(211, 250, 35);
+        /* relleno */
+        padding-top: 35px;
+        padding-left: 50px;
+        padding-right: 40px;
+        padding-bottom: 25px;
+        /* margen */
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color: brown;
+    }
