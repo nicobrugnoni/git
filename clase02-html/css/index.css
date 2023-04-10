@@ -1,3 +1,7 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h2 {       /* selector global */
     color: red;
     font-size: 50px;
@@ -7,22 +11,22 @@ h2 {       /* selector global */
 
 
     /* selector de clase */
-    .soloYo{
+.soloYo {
                 text-align: right;
             }
 
     /* selector por id */
-    #miParrafo{
+#miParrafo {
                 margin-top: 50px;
                 }
 
-h1  {      /* borde */
+h1 {      /* borde */
         border-top: solid 5px black;
         border-right: dashed 10px violet; 
         border-bottom: solid 6px blue;
-        border-left: dotted 10px rgb(211, 250, 35);
+        border-left: dotted 10px rgb( 250, 35);
         /* relleno */
-        padding-top: 35px;
+        padding-top: 35px;        
         padding-left: 50px;
         padding-right: 40px;
         padding-bottom: 25px;
@@ -34,11 +38,11 @@ h1  {      /* borde */
         background-color: brown;
     }
 
-    .centrar{
+.centrar {
                 text-align: center;
             }
 
-    ul li{
+ul li {
         list-style-type: none;
         display: inline-block;
         margin: 15px;
@@ -47,15 +51,15 @@ h1  {      /* borde */
         background-color: blueviolet;
     }
 
-    a{
+a {
         text-decoration: none;
     }
 
-    .otroParrafo {
+.otroParrafo {
         font-size: 25px;
     }
 
-    .miColor{
+.miColor {
              color: red;
             }
 
